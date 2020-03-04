@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pablo Sarabia Task</string>
+    <string name="app_header">Welcome</string>
+    <string name="app_button">Enter</string>
+</resources>
