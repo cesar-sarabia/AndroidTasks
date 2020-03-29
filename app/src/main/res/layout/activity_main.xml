@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -19,7 +18,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/marcianito_miprimer_proyecto_android_9" />
+        app:srcCompat="@drawable/marcianito_miprimer_proyecto_android_9"  />
 
     <Button
         android:id="@+id/button"
@@ -38,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"/>
 
     <TextView
         android:id="@+id/textView"
@@ -58,6 +57,9 @@
         app:layout_constraintHorizontal_bias="0.606"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"  />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
